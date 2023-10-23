@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import './LoginForm/LoginForm'
+import LoginForm from './LoginForm/LoginForm';
+import Table from './Table/Table';
 
 function App() {
+  //<LoginForm></LoginForm>
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="">
+        <Table NomeDaTabela={'Tabela'}></Table>
+        <Table NomeDaTabela={'Tabela 2'}></Table>
+      </div>
     </div>
   );
 }

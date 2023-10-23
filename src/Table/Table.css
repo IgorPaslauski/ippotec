@@ -1,0 +1,7 @@
+.form-table {
+    display: flex;
+    gap: 15px;
+}
+.form-table .form-group {
+    flex-grow: 1;
+}

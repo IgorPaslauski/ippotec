@@ -1,0 +1,104 @@
+[
+  {
+    "Nome": "Tabela",
+    "Descricao": "Tabela de teste",
+    "Colunas": [
+      {
+        "Nome": "Coluna1",
+        "Descricao": "Coluna 1",
+        "Tipo": "Texto",
+        "Tamanho": 50,
+        "Obrigatorio": true,
+        "ChavePrimaria": true,
+        "PosicaoColuna": 1,
+        "PosicaoLinha": 1,
+        "TabelaEstrangeira": null,
+        "TabelaEstrangeiraColuna": null
+      },
+      {
+        "Nome": "Coluna2",
+        "Descricao": "Coluna 2",
+        "Tipo": "Texto",
+        "Tamanho": 50,
+        "Obrigatorio": true,
+        "ChavePrimaria": false,
+        "PosicaoColuna": 2,
+        "PosicaoLinha": 1,
+        "TabelaEstrangeira": null,
+        "TabelaEstrangeiraColuna": null
+      },
+      {
+        "Nome": "Coluna3",
+        "Descricao": "Coluna 3",
+        "Tipo": "Texto",
+        "Tamanho": 50,
+        "Obrigatorio": true,
+        "ChavePrimaria": false,
+        "PosicaoColuna": 3,
+        "PosicaoLinha": 2,
+        "TabelaEstrangeira": null,
+        "TabelaEstrangeiraColuna": null
+      }
+    ],
+    "Data":[]
+  },
+  {
+    "Nome": "Tabela 2",
+    "Descricao": "Tabela de teste",
+    "Colunas": [
+      {
+        "Nome": "Coluna1",
+        "Descricao": "Coluna 1",
+        "Tipo": "Texto",
+        "Tamanho": 50,
+        "Obrigatorio": true,
+        "ChavePrimaria": true,
+        "PosicaoColuna": 1,
+        "PosicaoLinha": 1,
+        "TabelaEstrangeira": null,
+        "TabelaEstrangeiraColuna": null
+      },
+      {
+        "Nome": "Coluna2",
+        "Descricao": "Coluna 2",
+        "Tipo": "Texto",
+        "Tamanho": 50,
+        "Obrigatorio": true,
+        "ChavePrimaria": false,
+        "PosicaoColuna": 2,
+        "PosicaoLinha": 1,
+        "TabelaEstrangeira": null,
+        "TabelaEstrangeiraColuna": null
+      },
+      {
+        "Nome": "Coluna3",
+        "Descricao": "Coluna 3",
+        "Tipo": "Texto",
+        "Tamanho": 50,
+        "Obrigatorio": true,
+        "ChavePrimaria": false,
+        "PosicaoColuna": 3,
+        "PosicaoLinha": 2,
+        "TabelaEstrangeira": null,
+        "TabelaEstrangeiraColuna": null
+      }
+    ],
+    "Data": [
+      {
+        "Coluna1": "Valor 1",
+        "Coluna2": "Valor 2",
+        "Coluna3": "Valor 3"
+      },
+      {
+        "Coluna1": "Valor 11",
+        "Coluna2": "Valor 423",
+        "Coluna3": "Valor 3"
+      },
+      {
+        "Coluna1": "Valor 41",
+        "Coluna2": "Valor 212",
+        "Coluna3": "Valor 32"
+      }
+    ]
+  }
+]
